@@ -1,0 +1,95 @@
+#body{
+    background-color: #03c3ff;
+}
+
+.prinLogo{
+  width: 300px;
+  margin-top: -3%;
+  
+}
+
+
+.alidiv{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    
+    
+}
+
+@keyframes spin{
+    0% { transform: rotate(0deg); }
+    100%{ transform: rotate(360deg); }
+  }
+  
+  .spin {
+    width: 30%;
+    display: flex;
+    animation: spin 4s infinite ease;
+    transform-origin: center center;
+    position: absolute;
+    z-index: 1;
+    margin-top: -7%;
+    margin-left: 10%;
+    
+     
+
+    
+  }
+
+  .loader-container {
+    width: 40%; 
+    height: 30px;
+    background-color: #0b77f7;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 2;
+    margin-left:35% ;
+    
+  }
+  
+  .loader-bar {
+    height: 100%;
+    width: 0%;
+    transition: width s ease, background-color 4s ease; 
+    border-radius: 6px;
+   
+  }
+
+  .texto{
+    color: white;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+  }
+
+  .rodape {
+    display: flex;
+    justify-content: space-between; 
+    position: fixed; 
+    bottom:0; 
+    width: 100%; 
+  }
+  
+  .icoWhats, .icoFace, .icoInsta{
+    width: 50%; 
+    
+    
+  }
+
+  .by{
+    width: 90%;
+    bottom: 0;
+    margin-top: 5%;
+    color: white;
+  }
+
+ 
+  
